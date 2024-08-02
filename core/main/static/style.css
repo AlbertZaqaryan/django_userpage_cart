@@ -1,0 +1,28 @@
+.header_ {
+    text-align: center;
+    background-color: wheat;
+}
+
+/* Container for the products */
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px; /* Adjust the gap between items */
+}
+
+/* Each product item */
+.product-item {
+    flex: 1 1 30%; /* Adjust this percentage to fit three items per row */
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #f9f9f9;
+    text-align: center;
+    border: 1px solid #ddd;
+    margin-bottom: 20px; /* Margin between rows */
+}
+
+.product-item img {
+    width: 100%; /* Make images responsive */
+    height: auto;
+}
